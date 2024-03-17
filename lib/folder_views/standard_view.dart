@@ -200,7 +200,7 @@ class StandardNoteListTile extends StatelessWidget {
           text: '$noteSummary\n', // no minLines option
           maxLines: 3,
           overflow: TextOverflow.ellipsis,
-          style: textTheme.bodyMedium!,
+          style: textTheme.bodyMedium!.copyWith(fontFamily: "Roboto Mono"),
           highlightText: searchTerm,
           highlightTextLowerCase: searchTermLowerCase,
         ),

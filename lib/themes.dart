@@ -11,11 +11,11 @@ import 'settings/settings.dart';
 class Themes {
   static final _light = ThemeData(
     colorScheme: ColorScheme.fromSwatch(
-      primarySwatch: Colors.green,
+      primarySwatch: Colors.purple,
     ).copyWith(
-      primary: const Color(0xFF66bb6a),
-      secondary: const Color(0xff6d4c41),
-      onPrimary: Colors.black,
+      primary: Color(0xFF03DAC6),
+      secondary: Color(0xFF6200EE),
+      onPrimary: Color(0xFF018786),
     ),
     brightness: Brightness.light,
     primaryColor: const Color(0xFF66bb6a),
